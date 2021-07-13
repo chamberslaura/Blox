@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8371C528269DEFCB00BBF52E /* Effort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8371C527269DEFCB00BBF52E /* Effort.swift */; };
+		83AC18662694D98400966591 /* SingleBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AC18652694D98400966591 /* SingleBlock.swift */; };
 		83B7D298268E3E160072202F /* BloxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B7D297268E3E160072202F /* BloxApp.swift */; };
 		83B7D29A268E3E160072202F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B7D299268E3E160072202F /* ContentView.swift */; };
 		83B7D29C268E3E180072202F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B7D29B268E3E180072202F /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8371C527269DEFCB00BBF52E /* Effort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effort.swift; sourceTree = "<group>"; };
+		83AC18652694D98400966591 /* SingleBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBlock.swift; sourceTree = "<group>"; };
 		83B7D294268E3E160072202F /* Blox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B7D297268E3E160072202F /* BloxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloxApp.swift; sourceTree = "<group>"; };
 		83B7D299268E3E160072202F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83AC18642694D6AF00966591 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83AC18652694D98400966591 /* SingleBlock.swift */,
+				8371C527269DEFCB00BBF52E /* Effort.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		83B7D28B268E3E150072202F = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +70,7 @@
 				83B7D29B268E3E180072202F /* Assets.xcassets */,
 				83B7D2A0268E3E180072202F /* Info.plist */,
 				83B7D29D268E3E180072202F /* Preview Content */,
+				83AC18642694D6AF00966591 /* Model */,
 			);
 			path = Blox;
 			sourceTree = "<group>";
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B7D29A268E3E160072202F /* ContentView.swift in Sources */,
+				8371C528269DEFCB00BBF52E /* Effort.swift in Sources */,
+				83AC18662694D98400966591 /* SingleBlock.swift in Sources */,
 				83B7D298268E3E160072202F /* BloxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
